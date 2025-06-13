@@ -2,7 +2,7 @@ from fastapi import APIRouter
 import json
 import logging
 from app.schemas import RoleMappingRequest, RoleMappingResponse, CompetencyItem
-from app.services.gemini_llm import map_role_to_competencies_gemini
+from app.services.llm_service import map_role_to_competencies_gemini
 from app.services.redis_service import RedisService
 from fastapi.responses import JSONResponse
 from app.prompts import ROLE_MAPPING_PROMPT

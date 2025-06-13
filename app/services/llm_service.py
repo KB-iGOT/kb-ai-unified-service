@@ -12,13 +12,13 @@ def map_role_to_competencies_gemini(prompt_text: str, competency_framework_json:
     client = genai.Client(
         api_key=os.environ.get("GEMINI_API_KEY"),
     )
-    logger.info(f"Prompt for Gemini: {prompt_text[:200]}... (truncated)")
+    # logger.info(f"Prompt for Gemini: {prompt_text[:200]}... (truncated)")
     model = "gemini-2.5-flash-preview-04-17"
     user_prompt = prompt_text.replace("[Insert the entire competency framework JSON here]", competency_framework_json)
     user_prompt = user_prompt.replace("[organization]", organization)
     user_prompt = user_prompt.replace("[role_title]", role_title)
     user_prompt = user_prompt.replace("[department]", department or "")
-    logger.debug(f"User prompt: {user_prompt[:200]}... (truncated)")
+    # logger.debug(f"User prompt: {user_prompt[:200]}... (truncated)")
     contents = [
         types.Content(
             role="user",
@@ -90,9 +90,9 @@ def map_role_to_competencies_gemini(prompt_text: str, competency_framework_json:
             contents=contents,
             config=generate_content_config,
         ):
-            logger.info(f"Gemini chunk: {chunk}")
+            # logger.info(f"Gemini chunk: {chunk}")
             output += chunk.text
-        logger.info(f"Gemini LLM mapping call completed successfully. Output: {output}")
+        logger.info(f"Gemini LLM mapping call completed successfully.")
     except Exception as e:
         logger.error(f"Error during Gemini LLM call: {e}")
         raise

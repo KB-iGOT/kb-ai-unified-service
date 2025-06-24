@@ -7,3 +7,8 @@ class RoleMappingResponse(BaseModel):
     role_title: str
     mapped_competencies: List[CompetencyItem]
     mapping_rationale: str
+
+class ProfanityCheckResponse(BaseModel):
+    status: str
+    message: str
+    responseData: dict

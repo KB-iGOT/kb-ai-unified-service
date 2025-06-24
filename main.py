@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.logger import setup_logging
-from app.api.routes import role_mapping
+from app.api.routes import role_mapping, profanity
 from app.services.redis_service import RedisService
 from app.core.config import initialize_app
 
@@ -36,8 +36,9 @@ except Exception as e:
     logger.error(f"Error loading competency framework: {e}")
     competency_framework = None
 
-# Include the role_mapping router
+# Include the role_mapping and profanity routers
 app.include_router(role_mapping.router, prefix="/api/v1")
+app.include_router(profanity.router, prefix="/api/v1/profanity")
 
 @app.get("/health")
 async def health_check():

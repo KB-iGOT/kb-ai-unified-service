@@ -78,33 +78,88 @@ uvicorn main:app --reload --port 5000
 
 5. Test the endpoint at `/docs` (Swagger UI).
 
-## API Format
 
-### Request
-```json
-{
-  "organization": "Ministry of Road Transport and Highways",
-  "role_title": "Assistant Executive Engineer Civil",
-  "department": "Engineering"  // Optional
-}
-```
+## API Endpoints
 
-### Response
-```json
-{
-  "organization": "Ministry of Road Transport and Highways",
-  "role_title": "Assistant Executive Engineer Civil",
-  "mapped_competencies": [
+### 1. Map Role to Competencies
+
+- **Endpoint:** `POST /api/v1/map_competencies`
+- **Description:** Map a role to competencies using Gemini LLM and the provided competency framework.
+- **Request Body:**
+    ```json
     {
-      "category": "Behavioural",
-      "theme": "Solution Orientation",
-      "sub_themes": ["Analytical Thinking", "Systems Thinking"],
-      "relevance": "High"
+      "organization": "Ministry of Road Transport and Highways",
+      "role_title": "Assistant Executive Engineer Civil",
+      "department": "Engineering"  // Optional
     }
-  ],
-  "mapping_rationale": "Brief explanation of why these competencies were selected"
-}
-```
+    ```
+- **Response:**
+    ```json
+    {
+      "organization": "Ministry of Road Transport and Highways",
+      "role_title": "Assistant Executive Engineer Civil",
+      "mapped_competencies": [
+        {
+          "category": "Behavioural",
+          "theme": "Solution Orientation",
+          "sub_themes": ["Analytical Thinking", "Systems Thinking"],
+          "relevance": "High"
+        }
+      ],
+      "mapping_rationale": "Brief explanation of why these competencies were selected"
+    }
+    ```
+
+### 2. Profanity Check (fastText)
+
+- **Endpoint:** `POST /api/v1/profanity/fasttext`
+- **Description:** Check for profanity in text using a fastText model.
+- **Request Body:**
+    ```json
+    {
+      "text": "string"
+    }
+    ```
+- **Response:**
+    ```json
+    {
+      "is_profane": true,
+      "probability": 0.98,
+      "model": "fastText"
+    }
+    ```
+
+### 3. Profanity Check (LLM)
+
+- **Endpoint:** `POST /api/v1/profanity/llm`
+- **Description:** Check for profanity in text using an LLM.
+- **Request Body:**
+    ```json
+    {
+      "text": "string"
+    }
+    ```
+- **Response:**
+    ```json
+    {
+      "is_profane": false,
+      "probability": 0.01,
+      "model": "LLM"
+    }
+    ```
+
+### 4. Health Check
+
+- **Endpoint:** `GET /health`
+- **Description:** Check the health of the service and its dependencies (e.g., Redis, competency framework).
+- **Response:**
+    ```json
+    {
+      "status": "healthy",
+      "redis": "connected",
+      "competency_framework": "loaded"
+    }
+    ```
 
 ## Data Models
 

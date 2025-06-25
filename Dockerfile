@@ -9,15 +9,24 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/* \
     && pip install uv
 
-# Copy requirements files
+
+# Copy requirements and main files
 COPY requirements.txt requirements.txt
-COPY .env .env
+COPY main.py main.py
+COPY competency_framework.json competency_framework.json
+
+
+# Install build tools for fastText
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install dependencies using uv with system flag
 RUN uv pip install --system -r requirements.txt
 
-# Copy the rest of the application
-COPY . .
+
+# Copy only the app folder
+COPY app/ app/
 
 # Expose the port the app runs on
 EXPOSE 8000

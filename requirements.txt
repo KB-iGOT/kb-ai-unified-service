@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
+redis
+google-genai
+fasttext
+numpy==1.26.4

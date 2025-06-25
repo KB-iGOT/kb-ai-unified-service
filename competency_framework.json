@@ -1,0 +1,1350 @@
+[
+    {
+        "name": "Behavioural",
+        "competency_theme": [
+            {
+                "name": "Self-Awareness",
+                "competency_sub_theme": [
+                    "Self-Analysis",
+                    "Self Confidence",
+                    "Purposefulness",
+                    "Self-Learning"
+                ]
+            },
+            {
+                "name": "Personal Effectiveness",
+                "competency_sub_theme": [
+                    "Stress Management",
+                    "Resilience",
+                    "Navigating Ambiguity"
+                ]
+            },
+            {
+                "name": "Solution Orientation",
+                "competency_sub_theme": [
+                    "Analytical Thinking",
+                    "Attention to Detail",
+                    "Systems Thinking"
+                ]
+            },
+            {
+                "name": "Communication",
+                "competency_sub_theme": [
+                    "Active Listening",
+                    "Reading & Comprehension",
+                    "Verbal & Non-Verbal Fluency",
+                    "Presentation Skills"
+                ]
+            },
+            {
+                "name": "Outcome Orientation",
+                "competency_sub_theme": [
+                    "Goal Setting",
+                    "Accountability",
+                    "Initiative and Drive",
+                    "Commitment to Quality"
+                ]
+            },
+            {
+                "name": "Collaboration",
+                "competency_sub_theme": [
+                    "Relationship Management",
+                    "Diversity & Inclusion",
+                    "Knowledge Sharing"
+                ]
+            },
+            {
+                "name": "Service Orientation",
+                "competency_sub_theme": [
+                    "Empathy",
+                    "Responsiveness",
+                    "Service Excellence (wrt citizens)"
+                ]
+            },
+            {
+                "name": "Operational Excellence",
+                "competency_sub_theme": [
+                    "Planning & Prioritization",
+                    "Resource Management",
+                    "Process Excellence",
+                    "Continuous Improvement"
+                ]
+            },
+            {
+                "name": "Creativity & Innovation",
+                "competency_sub_theme": [
+                    "Lateral Thinking",
+                    "Transformation Orientation"
+                ]
+            },
+            {
+                "name": "Strategic Leadership",
+                "competency_sub_theme": [
+                    "Global mindset",
+                    "Forward Thinking",
+                    "Executive Presence",
+                    "Sustainable mindset"
+                ]
+            },
+            {
+                "name": "Collaborative Leadership",
+                "competency_sub_theme": [
+                    "Influencing and Negotiation",
+                    "Conflict Management"
+                ]
+            },
+            {
+                "name": "Team Leadership",
+                "competency_sub_theme": [
+                    "Mentoring",
+                    "Sharing constructive feedback",
+                    "Inspiring others"
+                ]
+            },
+            {
+                "name": "Decision Making",
+                "competency_sub_theme": [
+                    "Logical Reasoning",
+                    "Sound Judgement"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Functional",
+        "competency_theme": [
+            {
+                "name": "Citizen Centricity",
+                "competency_sub_theme": [
+                    "Design Thinking",
+                    "Citizen Partnering & Collaboration",
+                    "PEST (Political, Economic, Social, Technological) Consciousness"
+                ]
+            },
+            {
+                "name": "Policy Architecture",
+                "competency_sub_theme": [
+                    "Research & Need Analysis",
+                    "Policy design/ amendment",
+                    "Policy implementation",
+                    "Policy monitoring & impact assessment"
+                ]
+            },
+            {
+                "name": "Cabinet note preparation",
+                "competency_sub_theme": [
+                    "Rules of business (AoB/ToB)",
+                    "Cabinet note writing"
+                ]
+            },
+            {
+                "name": "Government Program Formulation",
+                "competency_sub_theme": [
+                    "Research & Need Analysis",
+                    "Scheme/Program Design",
+                    "Feasibility & Risk Assessment",
+                    "Implementation & Outreach"
+                ]
+            },
+            {
+                "name": "Project Management",
+                "competency_sub_theme": [
+                    "Project Planning",
+                    "Project Implementation",
+                    "Project Evaluation & Monitoring"
+                ]
+            },
+            {
+                "name": "Public Procurement (GFR)",
+                "competency_sub_theme": [
+                    "Procurement Mgmt. through GeM",
+                    "Procurement of Services / Goods / Works",
+                    "Contract Management",
+                    "Vendor / Consultant Management"
+                ]
+            },
+            {
+                "name": "Material Management",
+                "competency_sub_theme": [
+                    "Maintenance and Disposal of materials",
+                    "Inventory Management"
+                ]
+            },
+            {
+                "name": "Monitoring & Evaluation",
+                "competency_sub_theme": [
+                    "Creation of M&E Framework",
+                    "Evaluation of outcomes / outputs"
+                ]
+            },
+            {
+                "name": "Financial Management",
+                "competency_sub_theme": [
+                    "Budget Formulation & Implementation",
+                    "Expenditure Management",
+                    "Government accounts",
+                    "PFMS Portal Management",
+                    "Financial Management"
+                ]
+            },
+            {
+                "name": "Digital Fluency",
+                "competency_sub_theme": [
+                    "Digital Tools ( MS office, Excel, PPT & AI tools) & Platforms",
+                    "Digital Service Design"
+                ]
+            },
+            {
+                "name": "Data Analytics",
+                "competency_sub_theme": [
+                    "Data Management",
+                    "Data Analysis & Visualization",
+                    "Data led Decision making",
+                    "Data Use and Governance",
+                    "Data Analytics"
+                ]
+            },
+            {
+                "name": "Establishment & HR",
+                "competency_sub_theme": [
+                    "Handling Establishment Matters",
+                    "Handling matters of Reservations",
+                    "Handling Fundamental Rules /Supplementary Rules",
+                    "Handling matters of Prevention of Sexual Harassment Policy",
+                    "Handling APAR matters"
+                ]
+            },
+            {
+                "name": "Office Management",
+                "competency_sub_theme": [
+                    "E-Office",
+                    "File/DAK Management",
+                    "Office Procedures",
+                    "Noting & Drafting of official Communications",
+                    "Technical Proposal / Report writing"
+                ]
+            },
+            {
+                "name": "Handling Parliamentary Matters",
+                "competency_sub_theme": [
+                    "Submission of briefs, supply of information",
+                    "Maintaining records of parliamentary matters"
+                ]
+            },
+            {
+                "name": "Handling RTI Matters",
+                "competency_sub_theme": [
+                    "RTI Responsiveness",
+                    "RTI Records Management"
+                ]
+            },
+            {
+                "name": "Grievance Redressal",
+                "competency_sub_theme": [
+                    "CPGRAMS Portal Management",
+                    "Public Grievance Handling"
+                ]
+            },
+            {
+                "name": "Vigilance Administration",
+                "competency_sub_theme": [
+                    "Conduct Rules",
+                    "Provisions on Suspension",
+                    "Proposal preparation for disciplinary proceedings",
+                    "Handling prosecution cases",
+                    "Preventive Vigilance"
+                ]
+            },
+            {
+                "name": "Litigation Management",
+                "competency_sub_theme": [
+                    "Legal Know-How",
+                    "Court case management",
+                    "LIMBS Portal Management"
+                ]
+            },
+            {
+                "name": "Information & Communication Management",
+                "competency_sub_theme": [
+                    "Dissemination of Information",
+                    "Handling social media",
+                    "Management of information on official websites"
+                ]
+            },
+            {
+                "name": "Change Management",
+                "competency_sub_theme": [
+                    "Change Readiness",
+                    "Change Implementation",
+                    "Change Impact Assessment"
+                ]
+            },
+            {
+                "name": "Administration Matters",
+                "competency_sub_theme": [
+                    "Handling Allowances & Reimbursement",
+                    "Handling Leave and Travel",
+                    "Handling Miscellaneous Matters (Car, Residence, Personal Staff etc.)",
+                    "Implementing Official Language"
+                ]
+            },
+            {
+                "name": "Data Protection",
+                "competency_sub_theme": [
+                    "Data Use and Governance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Domain",
+        "competency_theme": [
+            {
+                "name": "Financial Management",
+                "competency_sub_theme": [
+                    "Budget Formulation & Implementation",
+                    "Expenditure Management",
+                    "Government accounts",
+                    "PFMS Portal Management",
+                    "Financial Management"
+                ]
+            },
+            {
+                "name": "Data Analytics",
+                "competency_sub_theme": [
+                    "Data Management",
+                    "Data Analysis & Visualization",
+                    "Data led Decision making",
+                    "Data Use and Governance",
+                    "Data Analytics"
+                ]
+            },
+            {
+                "name": "Financial Statements Analysis",
+                "competency_sub_theme": [
+                    "Financial Statements Analysis"
+                ]
+            },
+            {
+                "name": "Account Management",
+                "competency_sub_theme": [
+                    "Account Management"
+                ]
+            },
+            {
+                "name": "Adherence to Vigilance Guidelines",
+                "competency_sub_theme": [
+                    "Adherence to Vigilance Guidelines"
+                ]
+            },
+            {
+                "name": "Artificial Intelligence Application",
+                "competency_sub_theme": [
+                    "Artificial Intelligence Application"
+                ]
+            },
+            {
+                "name": "Audit and Compliance",
+                "competency_sub_theme": [
+                    "Audit and Compliance"
+                ]
+            },
+            {
+                "name": "Audit Frameworks",
+                "competency_sub_theme": [
+                    "Audit Frameworks"
+                ]
+            },
+            {
+                "name": "Benchmarking",
+                "competency_sub_theme": [
+                    "Benchmarking"
+                ]
+            },
+            {
+                "name": "Budgeting",
+                "competency_sub_theme": [
+                    "Budgeting"
+                ]
+            },
+            {
+                "name": "Business and Project Management",
+                "competency_sub_theme": [
+                    "Business and Project Management"
+                ]
+            },
+            {
+                "name": "Business Operational Planning",
+                "competency_sub_theme": [
+                    "Business Operational Planning"
+                ]
+            },
+            {
+                "name": "Capital Expenditure and Investment Evaluation",
+                "competency_sub_theme": [
+                    "Capital Expenditure and Investment Evaluation"
+                ]
+            },
+            {
+                "name": "Capital Management",
+                "competency_sub_theme": [
+                    "Capital Management"
+                ]
+            },
+            {
+                "name": "Cargo Loading and Unloading Administration",
+                "competency_sub_theme": [
+                    "Cargo Loading and Unloading Administration"
+                ]
+            },
+            {
+                "name": "Cash Flow Reporting",
+                "competency_sub_theme": [
+                    "Cash Flow Reporting"
+                ]
+            },
+            {
+                "name": "Climate Change",
+                "competency_sub_theme": [
+                    "Climate Change"
+                ]
+            },
+            {
+                "name": "Climate Change Policy Design",
+                "competency_sub_theme": [
+                    "Climate Change Policy Design"
+                ]
+            },
+            {
+                "name": "Climate Finance",
+                "competency_sub_theme": [
+                    "Climate Finance"
+                ]
+            },
+            {
+                "name": "Climate-Resilient Development",
+                "competency_sub_theme": [
+                    "Climate-Resilient Development"
+                ]
+            },
+            {
+                "name": "Commitment to the Organisation",
+                "competency_sub_theme": [
+                    "Commitment to the Organisation"
+                ]
+            },
+            {
+                "name": "Communication Auxiliary Systems Maintenance",
+                "competency_sub_theme": [
+                    "Communication Auxiliary Systems Maintenance"
+                ]
+            },
+            {
+                "name": "Communication Backbone System Maintenance",
+                "competency_sub_theme": [
+                    "Communication Backbone System Maintenance"
+                ]
+            },
+            {
+                "name": "Communication Power System Maintenance",
+                "competency_sub_theme": [
+                    "Communication Power System Maintenance"
+                ]
+            },
+            {
+                "name": "Conceptual Thinking",
+                "competency_sub_theme": [
+                    "Conceptual Thinking"
+                ]
+            },
+            {
+                "name": "Contract Management",
+                "competency_sub_theme": [
+                    "Contract Management"
+                ]
+            },
+            {
+                "name": "Control of Pollution",
+                "competency_sub_theme": [
+                    "Control of Pollution"
+                ]
+            },
+            {
+                "name": "Crisis Management",
+                "competency_sub_theme": [
+                    "Crisis Management"
+                ]
+            },
+            {
+                "name": "Crisis Situations Management/Disaster Management",
+                "competency_sub_theme": [
+                    "Crisis Situations Management/Disaster Management"
+                ]
+            },
+            {
+                "name": "Customer and Passenger Services",
+                "competency_sub_theme": [
+                    "Customer and Passenger Services"
+                ]
+            },
+            {
+                "name": "Customer Relationship Management",
+                "competency_sub_theme": [
+                    "Customer Relationship Management"
+                ]
+            },
+            {
+                "name": "Customer Relationship Management Operations",
+                "competency_sub_theme": [
+                    "Customer Relationship Management Operations"
+                ]
+            },
+            {
+                "name": "Customer Service Delivery",
+                "competency_sub_theme": [
+                    "Customer Service Delivery"
+                ]
+            },
+            {
+                "name": "Cyber Security",
+                "competency_sub_theme": [
+                    "Cyber Security"
+                ]
+            },
+            {
+                "name": "Data Analytics and Information Technology Management",
+                "competency_sub_theme": [
+                    "Data Analytics and Information Technology Management"
+                ]
+            },
+            {
+                "name": "Data collection and analysis",
+                "competency_sub_theme": [
+                    "Data collection and analysis"
+                ]
+            },
+            {
+                "name": "Data Ethics",
+                "competency_sub_theme": [
+                    "Data Ethics"
+                ]
+            },
+            {
+                "name": "Data Governance-Learning",
+                "competency_sub_theme": [
+                    "Data Governance-Learning"
+                ]
+            },
+            {
+                "name": "Data Management",
+                "competency_sub_theme": [
+                    "Data Management"
+                ]
+            },
+            {
+                "name": "Data Mining and Modelling",
+                "competency_sub_theme": [
+                    "Data Mining and Modelling"
+                ]
+            },
+            {
+                "name": "Data Sharing",
+                "competency_sub_theme": [
+                    "Data Sharing"
+                ]
+            },
+            {
+                "name": "Data Storytelling and Visualisation",
+                "competency_sub_theme": [
+                    "Data Storytelling and Visualisation"
+                ]
+            },
+            {
+                "name": "Decision-making support systems",
+                "competency_sub_theme": [
+                    "Decision-making support systems"
+                ]
+            },
+            {
+                "name": "Design and Architecture",
+                "competency_sub_theme": [
+                    "Design and Architecture"
+                ]
+            },
+            {
+                "name": "Digital and Data Management",
+                "competency_sub_theme": [
+                    "Digital and Data Management"
+                ]
+            },
+            {
+                "name": "Digital Marketing and Communication",
+                "competency_sub_theme": [
+                    "Digital Marketing and Communication"
+                ]
+            },
+            {
+                "name": "Emerging Technology",
+                "competency_sub_theme": [
+                    "Emerging Technology"
+                ]
+            },
+            {
+                "name": "Emerging Technology Synthesis",
+                "competency_sub_theme": [
+                    "Emerging Technology Synthesis"
+                ]
+            },
+            {
+                "name": "Employee Attraction",
+                "competency_sub_theme": [
+                    "Employee Attraction"
+                ]
+            },
+            {
+                "name": "Employee Engagement Management",
+                "competency_sub_theme": [
+                    "Employee Engagement Management"
+                ]
+            },
+            {
+                "name": "Employee Relationship Management",
+                "competency_sub_theme": [
+                    "Employee Relationship Management"
+                ]
+            },
+            {
+                "name": "Engineering Contract Management",
+                "competency_sub_theme": [
+                    "Engineering Contract Management"
+                ]
+            },
+            {
+                "name": "Engineering Safety and Security Standards",
+                "competency_sub_theme": [
+                    "Engineering Safety and Security Standards"
+                ]
+            },
+            {
+                "name": "Environment and Social Governance",
+                "competency_sub_theme": [
+                    "Environment and Social Governance"
+                ]
+            },
+            {
+                "name": "Environment, Sustainability and Governance",
+                "competency_sub_theme": [
+                    "Environment, Sustainability and Governance"
+                ]
+            },
+            {
+                "name": "Environmental Audits (EA)",
+                "competency_sub_theme": [
+                    "Environmental Audits (EA)"
+                ]
+            },
+            {
+                "name": "Environmental Impact Management",
+                "competency_sub_theme": [
+                    "Environmental Impact Management"
+                ]
+            },
+            {
+                "name": "Environmental Planning",
+                "competency_sub_theme": [
+                    "Environmental Planning"
+                ]
+            },
+            {
+                "name": "Escalator and Travelator Maintenance",
+                "competency_sub_theme": [
+                    "Escalator and Travelator Maintenance"
+                ]
+            },
+            {
+                "name": "External/Org Awareness",
+                "competency_sub_theme": [
+                    "External/Org Awareness"
+                ]
+            },
+            {
+                "name": "Financial Acumen",
+                "competency_sub_theme": [
+                    "Financial Acumen"
+                ]
+            },
+            {
+                "name": "Financial Analysis",
+                "competency_sub_theme": [
+                    "Financial Analysis"
+                ]
+            },
+            {
+                "name": "Financial Planning",
+                "competency_sub_theme": [
+                    "Financial Planning"
+                ]
+            },
+            {
+                "name": "Financial Reporting",
+                "competency_sub_theme": [
+                    "Financial Reporting"
+                ]
+            },
+            {
+                "name": "Financial Statements Review",
+                "competency_sub_theme": [
+                    "Financial Statements Review"
+                ]
+            },
+            {
+                "name": "Financial Transactions",
+                "competency_sub_theme": [
+                    "Financial Transactions"
+                ]
+            },
+            {
+                "name": "Food Waste Management",
+                "competency_sub_theme": [
+                    "Food Waste Management"
+                ]
+            },
+            {
+                "name": "Forestry Livelihood Management",
+                "competency_sub_theme": [
+                    "Forestry Livelihood Management"
+                ]
+            },
+            {
+                "name": "Gender-sensitive Disaster Risk Management (DRM)",
+                "competency_sub_theme": [
+                    "Gender-sensitive Disaster Risk Management (DRM)"
+                ]
+            },
+            {
+                "name": "General Management",
+                "competency_sub_theme": [
+                    "General Management"
+                ]
+            },
+            {
+                "name": "Geoinfromatics",
+                "competency_sub_theme": [
+                    "Geoinfromatics"
+                ]
+            },
+            {
+                "name": "High Voltage Power Systems Maintenance",
+                "competency_sub_theme": [
+                    "High Voltage Power Systems Maintenance"
+                ]
+            },
+            {
+                "name": "Human Resource Planning",
+                "competency_sub_theme": [
+                    "Human Resource Planning"
+                ]
+            },
+            {
+                "name": "Human Resource Policies and Legislation Framework Management",
+                "competency_sub_theme": [
+                    "Human Resource Policies and Legislation Framework Management"
+                ]
+            },
+            {
+                "name": "Human Resource Systems Management",
+                "competency_sub_theme": [
+                    "Human Resource Systems Management"
+                ]
+            },
+            {
+                "name": "Import and Export Documentation Administration",
+                "competency_sub_theme": [
+                    "Import and Export Documentation Administration"
+                ]
+            },
+            {
+                "name": "Industry Networking",
+                "competency_sub_theme": [
+                    "Industry Networking"
+                ]
+            },
+            {
+                "name": "Information security",
+                "competency_sub_theme": [
+                    "Information security"
+                ]
+            },
+            {
+                "name": "Infrastructure Design",
+                "competency_sub_theme": [
+                    "Infrastructure Design"
+                ]
+            },
+            {
+                "name": "Infrastructure Strategy",
+                "competency_sub_theme": [
+                    "Infrastructure Strategy"
+                ]
+            },
+            {
+                "name": "Innovation Management",
+                "competency_sub_theme": [
+                    "Innovation Management"
+                ]
+            },
+            {
+                "name": "Institutional Governance",
+                "competency_sub_theme": [
+                    "Institutional Governance"
+                ]
+            },
+            {
+                "name": "Integrated Finance Division",
+                "competency_sub_theme": [
+                    "Integrated Finance Division"
+                ]
+            },
+            {
+                "name": "Investment and Financial Management",
+                "competency_sub_theme": [
+                    "Investment and Financial Management"
+                ]
+            },
+            {
+                "name": "IT Standards",
+                "competency_sub_theme": [
+                    "IT Standards"
+                ]
+            },
+            {
+                "name": "Job Analysis and Evaluation",
+                "competency_sub_theme": [
+                    "Job Analysis and Evaluation"
+                ]
+            },
+            {
+                "name": "Knowledge Management",
+                "competency_sub_theme": [
+                    "Knowledge Management"
+                ]
+            },
+            {
+                "name": "Learning Analytics and Data Management",
+                "competency_sub_theme": [
+                    "Learning Analytics and Data Management"
+                ]
+            },
+            {
+                "name": "Learning and Development",
+                "competency_sub_theme": [
+                    "Learning and Development"
+                ]
+            },
+            {
+                "name": "Learning and Development Programme Management",
+                "competency_sub_theme": [
+                    "Learning and Development Programme Management"
+                ]
+            },
+            {
+                "name": "Learning and Development Strategy",
+                "competency_sub_theme": [
+                    "Learning and Development Strategy"
+                ]
+            },
+            {
+                "name": "Learning Experience Delivery",
+                "competency_sub_theme": [
+                    "Learning Experience Delivery"
+                ]
+            },
+            {
+                "name": "Learning Experience Evaluation",
+                "competency_sub_theme": [
+                    "Learning Experience Evaluation"
+                ]
+            },
+            {
+                "name": "Learning Research Data Analysis",
+                "competency_sub_theme": [
+                    "Learning Research Data Analysis"
+                ]
+            },
+            {
+                "name": "Legal Drafting and Writing",
+                "competency_sub_theme": [
+                    "Legal Drafting and Writing"
+                ]
+            },
+            {
+                "name": "Livelihood Development",
+                "competency_sub_theme": [
+                    "Livelihood Development"
+                ]
+            },
+            {
+                "name": "Locomotive Maintenance",
+                "competency_sub_theme": [
+                    "Locomotive Maintenance"
+                ]
+            },
+            {
+                "name": "Low Voltage Power Systems Maintenance",
+                "competency_sub_theme": [
+                    "Low Voltage Power Systems Maintenance"
+                ]
+            },
+            {
+                "name": "Management of Public Organisations",
+                "competency_sub_theme": [
+                    "Management of Public Organisations"
+                ]
+            },
+            {
+                "name": "Market Research",
+                "competency_sub_theme": [
+                    "Market Research"
+                ]
+            },
+            {
+                "name": "Marketing",
+                "competency_sub_theme": [
+                    "Marketing"
+                ]
+            },
+            {
+                "name": "Marketing Strategy Development",
+                "competency_sub_theme": [
+                    "Marketing Strategy Development"
+                ]
+            },
+            {
+                "name": "Microeconomics",
+                "competency_sub_theme": [
+                    "Microeconomics"
+                ]
+            },
+            {
+                "name": "Monitoring and Evaluation",
+                "competency_sub_theme": [
+                    "Monitoring and Evaluation"
+                ]
+            },
+            {
+                "name": "Monitoring and Surveillance",
+                "competency_sub_theme": [
+                    "Monitoring and Surveillance"
+                ]
+            },
+            {
+                "name": "Network Planning and Operations",
+                "competency_sub_theme": [
+                    "Network Planning and Operations"
+                ]
+            },
+            {
+                "name": "Network Systems Maintenance",
+                "competency_sub_theme": [
+                    "Network Systems Maintenance"
+                ]
+            },
+            {
+                "name": "Networking",
+                "competency_sub_theme": [
+                    "Networking"
+                ]
+            },
+            {
+                "name": "Operational Risk Management",
+                "competency_sub_theme": [
+                    "Operational Risk Management"
+                ]
+            },
+            {
+                "name": "Organisation Management",
+                "competency_sub_theme": [
+                    "Organisation Management"
+                ]
+            },
+            {
+                "name": "Organisational Analysis",
+                "competency_sub_theme": [
+                    "Organisational Analysis"
+                ]
+            },
+            {
+                "name": "Organisational Awareness",
+                "competency_sub_theme": [
+                    "Organisational Awareness"
+                ]
+            },
+            {
+                "name": "Organisational Design",
+                "competency_sub_theme": [
+                    "Organisational Design"
+                ]
+            },
+            {
+                "name": "People and politics",
+                "competency_sub_theme": [
+                    "People and politics"
+                ]
+            },
+            {
+                "name": "Planning and coordination",
+                "competency_sub_theme": [
+                    "Planning and coordination"
+                ]
+            },
+            {
+                "name": "Planning and Organizing",
+                "competency_sub_theme": [
+                    "Planning and Organizing"
+                ]
+            },
+            {
+                "name": "Policy Analysis",
+                "competency_sub_theme": [
+                    "Policy Analysis"
+                ]
+            },
+            {
+                "name": "Policy Development",
+                "competency_sub_theme": [
+                    "Policy Development"
+                ]
+            },
+            {
+                "name": "Process Optimization",
+                "competency_sub_theme": [
+                    "Process Optimization"
+                ]
+            },
+            {
+                "name": "Processes Of Mining Lease upto Letter of Intent",
+                "competency_sub_theme": [
+                    "Processes Of Mining Lease upto Letter of Intent"
+                ]
+            },
+            {
+                "name": "Procurement",
+                "competency_sub_theme": [
+                    "Procurement"
+                ]
+            },
+            {
+                "name": "Product Marketing and Branding",
+                "competency_sub_theme": [
+                    "Product Marketing and Branding"
+                ]
+            },
+            {
+                "name": "Project Administration",
+                "competency_sub_theme": [
+                    "Project Administration"
+                ]
+            },
+            {
+                "name": "Project Integration",
+                "competency_sub_theme": [
+                    "Project Integration"
+                ]
+            },
+            {
+                "name": "Project Resource Planning",
+                "competency_sub_theme": [
+                    "Project Resource Planning"
+                ]
+            },
+            {
+                "name": "Property and Infrastructural Planning",
+                "competency_sub_theme": [
+                    "Property and Infrastructural Planning"
+                ]
+            },
+            {
+                "name": "Public Finance",
+                "competency_sub_theme": [
+                    "Public Finance"
+                ]
+            },
+            {
+                "name": "Public Financial Management (PFM)",
+                "competency_sub_theme": [
+                    "Public Financial Management (PFM)"
+                ]
+            },
+            {
+                "name": "Public Health Systems",
+                "competency_sub_theme": [
+                    "Public Health Systems"
+                ]
+            },
+            {
+                "name": "Public Procurement of Goods",
+                "competency_sub_theme": [
+                    "Public Procurement of Goods"
+                ]
+            },
+            {
+                "name": "Public Procurement of Works",
+                "competency_sub_theme": [
+                    "Public Procurement of Works"
+                ]
+            },
+            {
+                "name": "Public Sector Transformation and Innovation",
+                "competency_sub_theme": [
+                    "Public Sector Transformation and Innovation"
+                ]
+            },
+            {
+                "name": "Public Service Transformation",
+                "competency_sub_theme": [
+                    "Public Service Transformation"
+                ]
+            },
+            {
+                "name": "Rail Operations",
+                "competency_sub_theme": [
+                    "Rail Operations"
+                ]
+            },
+            {
+                "name": "Rail Operations Enhancement Management",
+                "competency_sub_theme": [
+                    "Rail Operations Enhancement Management"
+                ]
+            },
+            {
+                "name": "Rail Track Inspection",
+                "competency_sub_theme": [
+                    "Rail Track Inspection"
+                ]
+            },
+            {
+                "name": "Rail Track Maintenance",
+                "competency_sub_theme": [
+                    "Rail Track Maintenance"
+                ]
+            },
+            {
+                "name": "Recruitment Channel Management",
+                "competency_sub_theme": [
+                    "Recruitment Channel Management"
+                ]
+            },
+            {
+                "name": "Regulatory and Legal Advisory",
+                "competency_sub_theme": [
+                    "Regulatory and Legal Advisory"
+                ]
+            },
+            {
+                "name": "Regulatory Compliance",
+                "competency_sub_theme": [
+                    "Regulatory Compliance"
+                ]
+            },
+            {
+                "name": "Regulatory Policy",
+                "competency_sub_theme": [
+                    "Regulatory Policy"
+                ]
+            },
+            {
+                "name": "Regulatory Risk Assessment",
+                "competency_sub_theme": [
+                    "Regulatory Risk Assessment"
+                ]
+            },
+            {
+                "name": "Research and Information Synthesis",
+                "competency_sub_theme": [
+                    "Research and Information Synthesis"
+                ]
+            },
+            {
+                "name": "Resource Allocation",
+                "competency_sub_theme": [
+                    "Resource Allocation"
+                ]
+            },
+            {
+                "name": "Risk Management",
+                "competency_sub_theme": [
+                    "Risk Management"
+                ]
+            },
+            {
+                "name": "Seeking Information",
+                "competency_sub_theme": [
+                    "Seeking Information"
+                ]
+            },
+            {
+                "name": "Service Branding and Coaching",
+                "competency_sub_theme": [
+                    "Service Branding and Coaching"
+                ]
+            },
+            {
+                "name": "Space Technologies",
+                "competency_sub_theme": [
+                    "Space Technologies"
+                ]
+            },
+            {
+                "name": "Stakeholder Management",
+                "competency_sub_theme": [
+                    "Stakeholder Management"
+                ]
+            },
+            {
+                "name": "Strategic Service Excellence",
+                "competency_sub_theme": [
+                    "Strategic Service Excellence"
+                ]
+            },
+            {
+                "name": "Sustainability Management",
+                "competency_sub_theme": [
+                    "Sustainability Management"
+                ]
+            },
+            {
+                "name": "Sustainable Development",
+                "competency_sub_theme": [
+                    "Sustainable Development"
+                ]
+            },
+            {
+                "name": "Sustainable Energy Infrastructure Design",
+                "competency_sub_theme": [
+                    "Sustainable Energy Infrastructure Design"
+                ]
+            },
+            {
+                "name": "Tax Computation",
+                "competency_sub_theme": [
+                    "Tax Computation"
+                ]
+            },
+            {
+                "name": "Tax Controversy Management",
+                "competency_sub_theme": [
+                    "Tax Controversy Management"
+                ]
+            },
+            {
+                "name": "Tax Implications",
+                "competency_sub_theme": [
+                    "Tax Implications"
+                ]
+            },
+            {
+                "name": "Taxation",
+                "competency_sub_theme": [
+                    "Taxation"
+                ]
+            },
+            {
+                "name": "Taxation Laws",
+                "competency_sub_theme": [
+                    "Taxation Laws"
+                ]
+            },
+            {
+                "name": "Technology and Systems Application",
+                "competency_sub_theme": [
+                    "Technology and Systems Application"
+                ]
+            },
+            {
+                "name": "Technology Application",
+                "competency_sub_theme": [
+                    "Technology Application"
+                ]
+            },
+            {
+                "name": "Technology Infrastructure Management and Integration",
+                "competency_sub_theme": [
+                    "Technology Infrastructure Management and Integration"
+                ]
+            },
+            {
+                "name": "Technology roadmapping",
+                "competency_sub_theme": [
+                    "Technology roadmapping"
+                ]
+            },
+            {
+                "name": "Technology-enabled Learning Delivery",
+                "competency_sub_theme": [
+                    "Technology-enabled Learning Delivery"
+                ]
+            },
+            {
+                "name": "Train Supervisory System Maintenance",
+                "competency_sub_theme": [
+                    "Train Supervisory System Maintenance"
+                ]
+            },
+            {
+                "name": "Trainborne Automatic Train Control Equipment Maintenance",
+                "competency_sub_theme": [
+                    "Trainborne Automatic Train Control Equipment Maintenance"
+                ]
+            },
+            {
+                "name": "Transport Management System Administration",
+                "competency_sub_theme": [
+                    "Transport Management System Administration"
+                ]
+            },
+            {
+                "name": "Transportation Management",
+                "competency_sub_theme": [
+                    "Transportation Management"
+                ]
+            },
+            {
+                "name": "Travel Information System Maintenance",
+                "competency_sub_theme": [
+                    "Travel Information System Maintenance"
+                ]
+            },
+            {
+                "name": "Unit Load Devices Operations",
+                "competency_sub_theme": [
+                    "Unit Load Devices Operations"
+                ]
+            },
+            {
+                "name": "Waste management and Resource Efficiency",
+                "competency_sub_theme": [
+                    "Waste management and Resource Efficiency"
+                ]
+            },
+            {
+                "name": "Workforce Engagement",
+                "competency_sub_theme": [
+                    "Workforce Engagement"
+                ]
+            },
+            {
+                "name": "Workplace health and safety",
+                "competency_sub_theme": [
+                    "Workplace health and safety"
+                ]
+            },
+            {
+                "name": "Workplace Learning Delivery",
+                "competency_sub_theme": [
+                    "Workplace Learning Delivery"
+                ]
+            }
+        ]
+    }
+]

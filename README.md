@@ -64,11 +64,16 @@ kb-ai-unified-service/
 
 2. Copy `.env.example` to `.env` and set your Gemini LLM API key and URL.
 
-3. Install dependencies:
+
+3. Install dependencies (includes support for transformer and fastText models):
 
 ```
 pip install -r requirements.txt
 ```
+
+**Key dependencies for profanity detection:**
+- `torch` and `transformers` (for English/Indic transformer-based detection)
+- `fasttext` (for fastText-based detection)
 
 4. Run the app:
 
@@ -76,7 +81,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 5000
 ```
 
-5. Test the endpoint at `/docs` (Swagger UI).
+5. Test the endpoints at `/docs` (Swagger UI).
 
 
 ## API Endpoints
@@ -110,6 +115,7 @@ uvicorn main:app --reload --port 5000
     }
     ```
 
+
 ### 2. Profanity Check (fastText)
 
 - **Endpoint:** `POST /api/v1/profanity/fasttext`
@@ -123,9 +129,14 @@ uvicorn main:app --reload --port 5000
 - **Response:**
     ```json
     {
-      "is_profane": true,
-      "probability": 0.98,
-      "model": "fastText"
+      "status": "success",
+      "message": "Profanity check completed",
+      "responseData": {
+        "word": "string",
+        "isProfane": true,
+        "confidence": 99.9,
+        "category": "profane|clean"
+      }
     }
     ```
 
@@ -142,13 +153,71 @@ uvicorn main:app --reload --port 5000
 - **Response:**
     ```json
     {
-      "is_profane": false,
-      "probability": 0.01,
-      "model": "LLM"
+      "status": "success",
+      "message": "Profanity check completed (llm)",
+      "responseData": {
+        "word": "string",
+        "isProfane": true,
+        "confidence": 99.9,
+        "category": "profane|clean"
+      }
     }
     ```
 
-### 4. Health Check
+### 4. Profanity Check (Transformer, English/Indic)
+
+- **Endpoint:** `POST /api/v1/profanity/transformer`
+- **Description:** Check for profanity in text using transformer models. Supports English and Indic languages. Optionally accepts a `language` field for cross-verification.
+- **Request Body:**
+    ```json
+    {
+      "text": "string",
+      "language": "english" // or "indic" (optional, only these two allowed)
+    }
+    ```
+- **Response:**
+    ```json
+    {
+      "status": "success",
+      "message": "Profanity check completed (transformer)",
+      "responseData": {
+        "word": "string",
+        "isProfane": true,
+        "confidence": 99.9,
+        "category": "Profane|Non-Profane|Clean",
+        "detected_language": "english|hindi|...",
+        "user_language": "english|indic|null",
+        "detected_language_group": "english|indic",
+        "language_match": true|false|null,
+        "toxic_labels": "toxic,insult,...|null"
+      }
+    }
+    ```
+
+#### Language Validation
+- Only `"english"` or `"indic"` are accepted for the `language` field. Any other value will return an error.
+- The API will cross-verify the user-provided language with the detected language group and return a `language_match` boolean.
+
+### 5. Language Detection (English/Indic only)
+
+- **Endpoint:** `POST /api/v1/profanity/detect_language`
+- **Description:** Detect if the input text is English or Indic (minimum 5 characters required).
+- **Request Body:**
+    ```json
+    {
+      "text": "string"
+    }
+    ```
+- **Response:**
+    ```json
+    {
+      "status": "success",
+      "detected_language": "english|indic",
+      "raw": "english|hindi|tamil|..."
+    }
+    ```
+
+### 6. Health Check
 
 - **Endpoint:** `GET /health`
 - **Description:** Check the health of the service and its dependencies (e.g., Redis, competency framework).

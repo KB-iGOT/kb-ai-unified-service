@@ -142,7 +142,7 @@ uvicorn main:app --reload --port 5000
 
 ### 3. Profanity Check (LLM)
 
-- **Endpoint:** `POST /api/v1/profanity/llm`
+- **Endpoint:** `POST /api/v1/profanity/profanity_validator`
 - **Description:** Check for profanity in text using an LLM.
 - **Request Body:**
     ```json

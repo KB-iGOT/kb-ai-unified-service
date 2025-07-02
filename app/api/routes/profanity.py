@@ -24,7 +24,7 @@ def profanity_check_fasttext(payload: ProfanityCheckRequest):
 
 
 @router.post(
-    "/llm",
+    "/profanity_validator",
     response_model=ProfanityCheckResponse,
     summary="Check profanity using LLM"
 )

@@ -6,3 +6,5 @@ redis
 google-genai
 fasttext
 numpy==1.26.4
+torch>=2.0.0
+transformers>=4.30.0
